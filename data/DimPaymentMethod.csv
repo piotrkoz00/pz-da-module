@@ -1,0 +1,5 @@
+PaymentMethodKey;PaymentMethodName
+1;PayPal
+2;Bank wire transfer
+3;Credit card
+4;Debit card
