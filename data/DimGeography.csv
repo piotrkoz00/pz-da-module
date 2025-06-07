@@ -1,0 +1,585 @@
+GEOGRAPHYKEY;COUNTRYKEY;COUNTRYNAME;COUNTRYCODE;CITYKEY;CITYNAME;SALESTERRITORYKEY
+1;1;United States;US;197;Birmingham;1
+2;1;United States;US;198;Florence;1
+3;1;United States;US;199;Huntsville;1
+4;1;United States;US;200;Mobile;1
+5;1;United States;US;201;Montgomery;1
+6;1;United States;US;202;Chandler;1
+7;1;United States;US;203;Gilbert;1
+8;1;United States;US;204;Mesa;1
+9;1;United States;US;205;Phoenix;1
+10;1;United States;US;206;Scottsdale;1
+11;1;United States;US;207;Surprise;1
+12;1;United States;US;208;Tucson;1
+13;1;United States;US;209;Alhambra;1
+14;1;United States;US;210;Alpine;1
+15;1;United States;US;211;Auburn;1
+16;1;United States;US;212;Baldwin Park;1
+17;1;United States;US;213;Barstow;1
+18;1;United States;US;214;Bell Gardens;1
+19;1;United States;US;215;Bellflower;1
+20;1;United States;US;216;Berkeley;1
+21;1;United States;US;217;Beverly Hills;1
+22;1;United States;US;218;Burbank;1
+23;1;United States;US;219;Burlingame;1
+24;1;United States;US;220;Camarillo;1
+25;1;United States;US;221;Canoga Park;1
+26;1;United States;US;222;Carson;1
+27;1;United States;US;223;Cerritos;1
+28;1;United States;US;224;Chula Vista;1
+29;1;United States;US;225;Citrus Heights;1
+30;1;United States;US;226;City Of Commerce;1
+31;1;United States;US;227;Colma;1
+32;1;United States;US;228;Concord;1
+33;1;United States;US;229;Coronado;1
+34;1;United States;US;230;Culver City;1
+35;1;United States;US;231;Daly City;1
+36;1;United States;US;232;Downey;1
+37;1;United States;US;233;El Cajon;1
+38;1;United States;US;234;El Segundo;1
+39;1;United States;US;235;Elk Grove;1
+40;1;United States;US;236;Escondido;1
+41;1;United States;US;237;Eureka;1
+42;1;United States;US;238;Fontana;1
+43;1;United States;US;239;Fremont;1
+44;1;United States;US;240;Fullerton;1
+45;1;United States;US;241;Gilroy;1
+46;1;United States;US;242;Glendale;1
+47;1;United States;US;243;Grossmont;1
+48;1;United States;US;244;Hanford;1
+49;1;United States;US;245;Hayward;1
+50;1;United States;US;246;Imperial Beach;1
+51;1;United States;US;247;Irvine;1
+52;1;United States;US;248;La Jolla;1
+53;1;United States;US;249;La Mesa;1
+54;1;United States;US;250;Lake Elsinore;1
+55;1;United States;US;251;Lakewood;1
+56;1;United States;US;252;Lemon Grove;1
+57;1;United States;US;253;Lincoln Acres;1
+58;1;United States;US;254;Long Beach;1
+59;1;United States;US;255;Los Angeles;1
+60;1;United States;US;256;Mill Valley;1
+61;1;United States;US;257;Milpitas;1
+62;1;United States;US;258;Modesto;1
+63;1;United States;US;259;Monrovia;1
+64;1;United States;US;260;National City;1
+65;1;United States;US;261;Newark;1
+66;1;United States;US;262;Newport Beach;1
+67;1;United States;US;263;Norwalk;1
+68;1;United States;US;264;Novato;1
+69;1;United States;US;265;Oakland;1
+70;1;United States;US;266;Ontario;1
+71;1;United States;US;267;Orange;1
+72;1;United States;US;268;Oxnard;1
+73;1;United States;US;269;Palo Alto;1
+74;1;United States;US;270;Pleasanton;1
+75;1;United States;US;271;Redlands;1
+76;1;United States;US;272;Redwood City;1
+77;1;United States;US;273;Sacramento;1
+78;1;United States;US;274;San Bruno;1
+79;1;United States;US;275;San Carlos;1
+80;1;United States;US;276;San Diego;1
+81;1;United States;US;277;San Francisco;1
+82;1;United States;US;278;San Gabriel;1
+83;1;United States;US;279;San Jose;1
+84;1;United States;US;280;San Mateo;1
+85;1;United States;US;281;San Ramon;1
+86;1;United States;US;282;San Ysidro;1
+87;1;United States;US;283;Sand City;1
+88;1;United States;US;284;Santa Ana;1
+89;1;United States;US;285;Santa Cruz;1
+90;1;United States;US;286;Santa Monica;1
+91;1;United States;US;287;Sherman Oaks;1
+92;1;United States;US;288;Simi Valley;1
+93;1;United States;US;289;Spring Valley;1
+94;1;United States;US;290;Stockton;1
+95;1;United States;US;291;Torrance;1
+96;1;United States;US;292;Trabuco Canyon;1
+97;1;United States;US;293;Union City;1
+98;1;United States;US;294;Upland;1
+99;1;United States;US;295;Vacaville;1
+100;1;United States;US;296;Van Nuys;1
+101;1;United States;US;297;Visalia;1
+102;1;United States;US;298;Vista;1
+103;1;United States;US;299;Walnut Creek;1
+104;1;United States;US;300;West Covina;1
+105;1;United States;US;301;Whittier;1
+106;1;United States;US;302;Woodland Hills;1
+107;1;United States;US;303;Denver;1
+108;1;United States;US;304;Englewood;1
+109;1;United States;US;305;Greeley;1
+110;1;United States;US;306;Longmont;1
+111;1;United States;US;307;Loveland;1
+112;1;United States;US;308;Parker;1
+113;1;United States;US;309;Westminster;1
+114;1;United States;US;310;East Haven;1
+115;1;United States;US;311;Farmington;1
+116;1;United States;US;312;Hamden;1
+117;1;United States;US;313;Milford;1
+118;1;United States;US;314;New Haven;1
+119;1;United States;US;315;Stamford;1
+120;1;United States;US;316;Waterbury;1
+121;1;United States;US;317;Westport;1
+122;1;United States;US;318;Altamonte Springs;1
+123;1;United States;US;319;Bradenton;1
+124;1;United States;US;320;Clearwater;1
+125;1;United States;US;321;Destin;1
+126;1;United States;US;322;Hollywood;1
+127;1;United States;US;323;Kendall;1
+128;1;United States;US;324;Lakeland;1
+129;1;United States;US;325;Merritt Island;1
+130;1;United States;US;326;Miami;1
+131;1;United States;US;327;North Miami Beach;1
+132;1;United States;US;328;Orlando;1
+133;1;United States;US;329;Sarasota;1
+134;1;United States;US;330;Sunrise;1
+135;1;United States;US;331;Tampa;1
+136;1;United States;US;332;Vero Beach;1
+137;1;United States;US;333;Atlanta;1
+138;1;United States;US;334;Augusta;1
+139;1;United States;US;335;Austell;1
+140;1;United States;US;336;Byron;1
+141;1;United States;US;337;Clarkston;1
+142;1;United States;US;338;Columbus;1
+143;1;United States;US;339;Decatur;1
+144;1;United States;US;340;La Grange;1
+145;1;United States;US;341;Marietta;1
+146;1;United States;US;342;Mcdonough;1
+147;1;United States;US;343;Savannah;1
+148;1;United States;US;344;Suwanee;1
+149;1;United States;US;345;Idaho Falls;1
+150;1;United States;US;346;Lewiston;1
+151;1;United States;US;347;Sandpoint;1
+152;1;United States;US;348;Carol Stream;1
+153;1;United States;US;349;Chicago;1
+154;1;United States;US;350;Elgin;1
+155;1;United States;US;351;Joliet;1
+156;1;United States;US;352;Moline;1
+157;1;United States;US;353;Norridge;1
+158;1;United States;US;354;Peoria;1
+159;1;United States;US;355;Tuscola;1
+160;1;United States;US;356;West Chicago;1
+161;1;United States;US;357;Wood Dale;1
+162;1;United States;US;358;Daleville;1
+163;1;United States;US;359;Fort Wayne;1
+164;1;United States;US;360;Indianapolis;1
+165;1;United States;US;361;Logansport;1
+166;1;United States;US;362;Michigan City;1
+167;1;United States;US;363;New Castle;1
+168;1;United States;US;364;South Bend;1
+169;1;United States;US;365;Campbellsville;1
+170;1;United States;US;366;Newport;1
+171;1;United States;US;367;Saint Matthews;1
+172;1;United States;US;368;Somerset;1
+173;1;United States;US;369;Braintree;1
+174;1;United States;US;370;Norwood;1
+175;1;United States;US;371;Randolph;1
+176;1;United States;US;372;Saugus;1
+177;1;United States;US;373;Wrentham;1
+178;1;United States;US;374;Baltimore;1
+179;1;United States;US;375;Kittery;1
+180;1;United States;US;376;Detroit;1
+181;1;United States;US;377;Holland;1
+182;1;United States;US;378;Howell;1
+183;1;United States;US;379;Madison Heights;1
+184;1;United States;US;380;Midland;1
+185;1;United States;US;381;Monroe;1
+186;1;United States;US;382;Novi;1
+187;1;United States;US;383;Pontiac;1
+188;1;United States;US;384;Port Huron;1
+189;1;United States;US;385;Redford;1
+190;1;United States;US;386;Saginaw;1
+191;1;United States;US;387;Southfield;1
+192;1;United States;US;388;Southgate;1
+193;1;United States;US;389;Westland;1
+194;1;United States;US;390;Zeeland;1
+195;1;United States;US;391;Branch;1
+196;1;United States;US;392;Duluth;1
+197;1;United States;US;393;Edina;1
+198;1;United States;US;394;Medford;1
+199;1;United States;US;395;Minneapolis;1
+200;1;United States;US;396;Woodbury;1
+201;1;United States;US;397;Branson;1
+202;1;United States;US;398;Ferguson;1
+203;1;United States;US;399;Jefferson City;1
+204;1;United States;US;400;Kansas City;1
+205;1;United States;US;401;Odessa;1
+206;1;United States;US;402;Saint Ann;1
+207;1;United States;US;403;Saint Louis;1
+208;1;United States;US;404;Biloxi;1
+209;1;United States;US;405;Gulfport;1
+210;1;United States;US;406;Tupelo;1
+211;1;United States;US;407;Billings;1
+212;1;United States;US;408;Great Falls;1
+213;1;United States;US;409;Missoula;1
+214;1;United States;US;410;Charlotte;1
+215;1;United States;US;411;Greensboro;1
+216;1;United States;US;412;Kannapolis;1
+217;1;United States;US;413;Raleigh;1
+218;1;United States;US;414;Rocky Mount;1
+219;1;United States;US;415;Smithfield;1
+220;1;United States;US;416;Winston-Salem;1
+221;1;United States;US;417;Hooksett;1
+222;1;United States;US;418;Nashua;1
+223;1;United States;US;419;Plaistow;1
+224;1;United States;US;420;Tilton;1
+225;1;United States;US;421;Las Cruces;1
+226;1;United States;US;422;Rio Rancho;1
+227;1;United States;US;423;Santa Fe;1
+228;1;United States;US;424;Fernley;1
+229;1;United States;US;425;Las Vegas;1
+230;1;United States;US;426;North Las Vegas;1
+231;1;United States;US;427;Reno;1
+232;1;United States;US;428;Sparks;1
+233;1;United States;US;429;Central Valley;1
+234;1;United States;US;430;Cheektowaga;1
+235;1;United States;US;431;Clay;1
+236;1;United States;US;432;De Witt;1
+237;1;United States;US;433;Endicott;1
+238;1;United States;US;434;Ithaca;1
+239;1;United States;US;435;Lake George;1
+240;1;United States;US;436;Melville;1
+241;1;United States;US;437;New Hartford;1
+242;1;United States;US;438;New York;1
+243;1;United States;US;439;Valley Stream;1
+244;1;United States;US;440;Cincinnati;1
+245;1;United States;US;441;Euclid;1
+246;1;United States;US;442;Heath;1
+247;1;United States;US;443;Mansfield;1
+248;1;United States;US;444;Mentor;1
+249;1;United States;US;445;North Randall;1
+250;1;United States;US;446;Oberlin;1
+251;1;United States;US;447;Springdale;1
+252;1;United States;US;448;Albany;1
+253;1;United States;US;449;Beaverton;1
+254;1;United States;US;450;Clackamas;1
+255;1;United States;US;451;Corvallis;1
+256;1;United States;US;452;Hillsboro;1
+257;1;United States;US;453;Klamath Falls;1
+258;1;United States;US;454;Lake Oswego;1
+259;1;United States;US;455;Lebanon;1
+260;1;United States;US;456;Milwaukie;1
+261;1;United States;US;457;Oregon City;1
+262;1;United States;US;458;Portland;1
+263;1;United States;US;459;Salem;1
+264;1;United States;US;460;Springfield;1
+265;1;United States;US;461;Tigard;1
+266;1;United States;US;462;Troutdale;1
+267;1;United States;US;463;W. Linn;1
+268;1;United States;US;464;Woodburn;1
+269;1;United States;US;465;Warwick;1
+270;1;United States;US;466;West Kingston;1
+271;1;United States;US;467;Woonsocket;1
+272;1;United States;US;468;Bluffton;1
+273;1;United States;US;469;Gaffney;1
+274;1;United States;US;470;Myrtle Beach;1
+275;1;United States;US;471;Denby;1
+276;1;United States;US;472;North Sioux City;1
+277;1;United States;US;473;Crossville;1
+278;1;United States;US;474;Hixson;1
+279;1;United States;US;475;Kingsport;1
+280;1;United States;US;476;La Vergne;1
+281;1;United States;US;477;Maryville;1
+282;1;United States;US;478;Memphis;1
+283;1;United States;US;479;Millington;1
+284;1;United States;US;480;Nashville;1
+285;1;United States;US;481;Pigeon Forge;1
+286;1;United States;US;482;Arlington;1
+287;1;United States;US;483;Austin;1
+288;1;United States;US;484;Baytown;1
+289;1;United States;US;485;Carrollton;1
+290;1;United States;US;486;Cedar Park;1
+291;1;United States;US;487;College Station;1
+292;1;United States;US;488;Corpus Christi;1
+293;1;United States;US;489;Dallas;1
+294;1;United States;US;490;Fort Worth;1
+295;1;United States;US;491;Garland;1
+296;1;United States;US;492;Houston;1
+297;1;United States;US;493;Humble;1
+298;1;United States;US;494;Irving;1
+299;1;United States;US;495;Killeen;1
+300;1;United States;US;496;La Marque;1
+301;1;United States;US;497;Laredo;1
+302;1;United States;US;498;Mesquite;1
+303;1;United States;US;499;Plano;1
+304;1;United States;US;500;Round Rock;1
+305;1;United States;US;501;San Antonio;1
+306;1;United States;US;502;Stafford;1
+307;1;United States;US;503;Sugar Land;1
+308;1;United States;US;504;Bountiful;1
+309;1;United States;US;505;Cedar City;1
+310;1;United States;US;506;Ogden;1
+311;1;United States;US;507;Park City;1
+312;1;United States;US;508;Riverton;1
+313;1;United States;US;509;Salt Lake City;1
+314;1;United States;US;510;Sandy;1
+315;1;United States;US;511;Tooele;1
+316;1;United States;US;512;Chantilly;1
+317;1;United States;US;513;Falls Church;1
+318;1;United States;US;514;Leesburg;1
+319;1;United States;US;515;Newport News;1
+320;1;United States;US;516;Virginia Beach;1
+321;1;United States;US;517;Ballard;1
+322;1;United States;US;518;Bellevue;1
+323;1;United States;US;519;Bellingham;1
+324;1;United States;US;520;Bothell;1
+325;1;United States;US;521;Bremerton;1
+326;1;United States;US;522;Burien;1
+327;1;United States;US;523;Chehalis;1
+328;1;United States;US;524;Edmonds;1
+329;1;United States;US;525;Ellensburg;1
+330;1;United States;US;526;Everett;1
+331;1;United States;US;527;Federal Way;1
+332;1;United States;US;528;Issaquah;1
+333;1;United States;US;529;Kelso;1
+334;1;United States;US;530;Kenmore;1
+335;1;United States;US;531;Kennewick;1
+336;1;United States;US;532;Kent;1
+337;1;United States;US;533;Kirkland;1
+338;1;United States;US;534;Lacey;1
+339;1;United States;US;535;Longview;1
+340;1;United States;US;536;Lynnwood;1
+341;1;United States;US;537;Marysville;1
+342;1;United States;US;538;Newport Hills;1
+343;1;United States;US;539;North Bend;1
+344;1;United States;US;540;Olympia;1
+345;1;United States;US;541;Port Orchard;1
+346;1;United States;US;542;Puyallup;1
+347;1;United States;US;543;Redmond;1
+348;1;United States;US;544;Renton;1
+349;1;United States;US;545;Sammamish;1
+350;1;United States;US;546;Seattle;1
+351;1;United States;US;547;Sedro Woolley;1
+352;1;United States;US;548;Sequim;1
+353;1;United States;US;549;Shelton;1
+354;1;United States;US;550;Spokane;1
+355;1;United States;US;551;Tacoma;1
+356;1;United States;US;552;Union Gap;1
+357;1;United States;US;553;Walla Walla;1
+358;1;United States;US;554;Washougal;1
+359;1;United States;US;555;Wenatchee;1
+360;1;United States;US;556;Woodinville;1
+361;1;United States;US;557;Yakima;1
+362;1;United States;US;558;Johnson Creek;1
+363;1;United States;US;559;Milwaukee;1
+364;1;United States;US;560;Mosinee;1
+365;1;United States;US;561;Racine;1
+366;1;United States;US;562;Casper;1
+367;1;United States;US;563;Cheyenne;1
+368;1;United States;US;564;Rock Springs;1
+369;2;Germany;DE;90;Berlin;3
+370;2;Germany;DE;91;Eilenburg;3
+371;2;Germany;DE;92;Augsburg;3
+372;2;Germany;DE;93;Erlangen;3
+373;2;Germany;DE;94;Frankfurt;3
+374;2;Germany;DE;95;Grevenbroich;3
+375;2;Germany;DE;96;Hof;3
+376;2;Germany;DE;97;Ingolstadt;3
+377;2;Germany;DE;98;Bad Soden;3
+378;2;Germany;DE;99;Darmstadt;3
+379;2;Germany;DE;100;Dresden;3
+380;2;Germany;DE;101;Duesseldorf;3
+381;2;Germany;DE;102;Hamburg;3
+382;2;Germany;DE;103;Kassel;3
+383;2;Germany;DE;104;M?nchen;3
+384;2;Germany;DE;105;Salzgitter;3
+385;2;Germany;DE;106;Ascheim;3
+386;2;Germany;DE;107;Bonn;3
+387;2;Germany;DE;108;Essen;3
+388;2;Germany;DE;109;Frankfurt am Main;3
+389;2;Germany;DE;110;Muehlheim;3
+390;2;Germany;DE;111;M?hlheim;3
+391;2;Germany;DE;112;Paderborn;3
+392;2;Germany;DE;113;Bottrop;3
+393;2;Germany;DE;114;Braunschweig;3
+394;2;Germany;DE;115;Hannover;3
+395;2;Germany;DE;116;Leipzig;3
+396;2;Germany;DE;117;Solingen;3
+397;2;Germany;DE;118;Werne;3
+398;2;Germany;DE;119;Kiel;3
+399;2;Germany;DE;120;M?nster;3
+400;2;Germany;DE;121;Neunkirchen;3
+401;2;Germany;DE;122;Offenbach;3
+402;2;Germany;DE;123;Poing;3
+403;2;Germany;DE;124;Saarbr?cken;3
+404;2;Germany;DE;125;Saarlouis;3
+405;2;Germany;DE;126;Stuttgart;3
+406;2;Germany;DE;127;Sulzbach Taunus;3
+407;3;United Kingdom;GB;162;Abingdon;4
+408;3;United Kingdom;GB;163;Basingstoke Hants;4
+409;3;United Kingdom;GB;164;Berks;4
+410;3;United Kingdom;GB;165;Berkshire;4
+411;3;United Kingdom;GB;166;Billericay;4
+412;3;United Kingdom;GB;167;Birmingham;4
+413;3;United Kingdom;GB;168;Bracknell;4
+414;3;United Kingdom;GB;169;Bury;4
+415;3;United Kingdom;GB;170;Cambridge;4
+416;3;United Kingdom;GB;171;Cheltenham;4
+417;3;United Kingdom;GB;172;Esher-Molesey;4
+418;3;United Kingdom;GB;173;Gateshead;4
+419;3;United Kingdom;GB;174;Gloucestershire;4
+420;3;United Kingdom;GB;175;High Wycombe;4
+421;3;United Kingdom;GB;176;Kirkby;4
+422;3;United Kingdom;GB;177;Lancaster;4
+423;3;United Kingdom;GB;178;Leeds;4
+424;3;United Kingdom;GB;179;London;4
+425;3;United Kingdom;GB;180;Maidenhead;4
+426;3;United Kingdom;GB;181;Milton Keynes;4
+427;3;United Kingdom;GB;182;Newcastle upon Tyne;4
+428;3;United Kingdom;GB;183;Oxford;4
+429;3;United Kingdom;GB;184;Oxon;4
+430;3;United Kingdom;GB;185;Peterborough;4
+431;3;United Kingdom;GB;186;Reading;4
+432;3;United Kingdom;GB;187;Runcorn;4
+433;3;United Kingdom;GB;188;Liverpool;4
+434;3;United Kingdom;GB;189;Stoke-on-Trent;4
+435;3;United Kingdom;GB;190;W. York;4
+436;3;United Kingdom;GB;191;Warrington;4
+437;3;United Kingdom;GB;192;Watford;4
+438;3;United Kingdom;GB;193;West Sussex;4
+439;3;United Kingdom;GB;194;Wokingham;4
+440;3;United Kingdom;GB;195;Woolston;4
+441;3;United Kingdom;GB;196;York;4
+442;4;Canada;CA;41;Calgary;2
+443;4;Canada;CA;42;Edmonton;2
+444;4;Canada;CA;43;Burnaby;2
+445;4;Canada;CA;44;Cliffside;2
+446;4;Canada;CA;45;Haney;2
+447;4;Canada;CA;46;Langford;2
+448;4;Canada;CA;47;Langley;2
+449;4;Canada;CA;48;Metchosin;2
+450;4;Canada;CA;49;N. Vancouver;2
+451;4;Canada;CA;50;Newton;2
+452;4;Canada;CA;51;Oak Bay;2
+453;4;Canada;CA;52;Port Hammond;2
+454;4;Canada;CA;53;Richmond;2
+455;4;Canada;CA;54;Royal Oak;2
+456;4;Canada;CA;55;Shawnee;2
+457;4;Canada;CA;56;Sooke;2
+458;4;Canada;CA;57;Surrey;2
+459;4;Canada;CA;58;Vancouver;2
+460;4;Canada;CA;59;Victoria;2
+461;4;Canada;CA;60;Westminster;2
+462;4;Canada;CA;61;Winnipeg;2
+463;4;Canada;CA;62;Saint John;2
+464;4;Canada;CA;63;Aurora;2
+465;4;Canada;CA;64;Barrie;2
+466;4;Canada;CA;65;Brampton;2
+467;4;Canada;CA;66;Chalk Riber;2
+468;4;Canada;CA;67;Etobicoke;2
+469;4;Canada;CA;68;Kanata;2
+470;4;Canada;CA;69;Kingston;2
+471;4;Canada;CA;70;Markham;2
+472;4;Canada;CA;71;Mississauga;2
+473;4;Canada;CA;72;Nepean;2
+474;4;Canada;CA;73;North York;2
+475;4;Canada;CA;74;Ottawa;2
+476;4;Canada;CA;75;Richmond Hill;2
+477;4;Canada;CA;76;Scarborough;2
+478;4;Canada;CA;77;Toronto;2
+479;4;Canada;CA;78;Waterloo;2
+480;4;Canada;CA;79;Weston;2
+481;4;Canada;CA;80;Brossard;2
+482;4;Canada;CA;81;Dorval;2
+483;4;Canada;CA;82;Hull;2
+484;4;Canada;CA;83;Montreal;2
+485;4;Canada;CA;84;Outremont;2
+486;4;Canada;CA;85;Pnot-Rouge;2
+487;4;Canada;CA;86;Quebec;2
+488;4;Canada;CA;87;Sainte-Foy;2
+489;4;Canada;CA;88;Sillery;2
+490;4;Canada;CA;89;Ville De'anjou;2
+491;5;Australia;AU;1;Alexandria;10
+492;5;Australia;AU;2;Coffs Harbour;10
+493;5;Australia;AU;3;Darlinghurst;10
+494;5;Australia;AU;4;Goulburn;10
+495;5;Australia;AU;5;Lane Cove;10
+496;5;Australia;AU;6;Lavender Bay;10
+497;5;Australia;AU;7;Malabar;10
+498;5;Australia;AU;8;Matraville;10
+499;5;Australia;AU;9;Milsons Point;10
+500;5;Australia;AU;10;Newcastle;10
+501;5;Australia;AU;11;North Ryde;10
+502;5;Australia;AU;12;North Sydney;10
+503;5;Australia;AU;13;Port Macquarie;10
+504;5;Australia;AU;14;Rhodes;10
+505;5;Australia;AU;15;Silverwater;10
+506;5;Australia;AU;16;Springwood;10
+507;5;Australia;AU;17;St. Leonards;10
+508;5;Australia;AU;18;Sydney;10
+509;5;Australia;AU;19;Wollongong;10
+510;5;Australia;AU;20;Brisbane;10
+511;5;Australia;AU;21;Caloundra;10
+512;5;Australia;AU;22;East Brisbane;10
+513;5;Australia;AU;23;Gold Coast;10
+514;5;Australia;AU;24;Hawthorne;10
+515;5;Australia;AU;25;Hervey Bay;10
+516;5;Australia;AU;26;Rockhampton;10
+517;5;Australia;AU;27;Townsville;10
+518;5;Australia;AU;28;Cloverdale;10
+519;5;Australia;AU;29;Findon;10
+520;5;Australia;AU;30;Perth;10
+521;5;Australia;AU;31;Hobart;10
+522;5;Australia;AU;32;Bendigo;10
+523;5;Australia;AU;33;Cranbourne;10
+524;5;Australia;AU;34;Geelong;10
+525;5;Australia;AU;35;Melbourne;10
+526;5;Australia;AU;36;Melton;10
+527;5;Australia;AU;37;Seaford;10
+528;5;Australia;AU;38;South Melbourne;10
+529;5;Australia;AU;39;Sunbury;10
+530;5;Australia;AU;40;Warrnambool;10
+531;6;France;FR;128;Saint Ouen;5
+532;6;France;FR;129;Colomiers;5
+533;6;France;FR;130;Aujan Mournede;5
+534;6;France;FR;131;Orleans;5
+535;6;France;FR;132;Metz;5
+536;6;France;FR;133;Croix;5
+537;6;France;FR;134;Dunkerque;5
+538;6;France;FR;135;Lille;5
+539;6;France;FR;136;Roncq;5
+540;6;France;FR;137;Roubaix;5
+541;6;France;FR;138;Villeneuve-d'Ascq;5
+542;6;France;FR;139;Boulogne-sur-Mer;5
+543;6;France;FR;140;Paris;5
+544;6;France;FR;141;Lieusaint;5
+545;6;France;FR;142;Roissy en Brie;5
+546;6;France;FR;143;Chatou;5
+547;6;France;FR;144;Saint Germain en Laye;5
+548;6;France;FR;145;Versailles;5
+549;6;France;FR;146;Les Ulis;5
+550;6;France;FR;147;Morangis;5
+551;6;France;FR;148;Verrieres Le Buisson;5
+552;6;France;FR;149;Boulogne-Billancourt;5
+553;6;France;FR;150;Colombes;5
+554;6;France;FR;151;Courbevoie;5
+555;6;France;FR;152;Paris La Defense;5
+556;6;France;FR;153;S?vres;5
+557;6;France;FR;154;Suresnes;5
+558;6;France;FR;155;Bobigny;5
+559;6;France;FR;156;Drancy;5
+560;6;France;FR;157;Pantin;5
+561;6;France;FR;158;Saint-Denis;5
+562;6;France;FR;159;Tremblay-en-France;5
+563;6;France;FR;160;Orly;5
+564;6;France;FR;161;Cergy;5
+565;7;Italy;IT;569;Rome;6
+566;7;Italy;IT;570;Milan;6
+567;7;Italy;IT;571;Naples;6
+568;7;Italy;IT;572;Venice;6
+569;8;Poland;PL;565;Warsaw;7
+570;8;Poland;PL;566;Cracow;7
+571;8;Poland;PL;567;Gdansk;7
+572;8;Poland;PL;568;Poznan;7
+573;9;Nederland;NL;573;Amsterdam;8
+574;9;Nederland;NL;574;Antwerp;8
+575;9;Nederland;NL;575;Maastricht;8
+576;9;Nederland;NL;576;Haga;8
+577;9;Nederland;NL;577;Rotterdam;8
+578;10;Spain;ES;578;Madrid;9
+579;10;Spain;ES;579;Alicante;9
+580;10;Spain;ES;580;Murcia;9
+581;10;Spain;ES;581;Sevilla;9
+582;10;Spain;ES;582;Valencia;9
+583;10;Spain;ES;583;Barcelona;9
+584;10;Spain;ES;584;Cordoba;9
