@@ -96,20 +96,22 @@ class AIReadinessAnalyzer:
         numeric = self.df.select_dtypes(include=np.number)
         if numeric.shape[1] < 2:
             return None
-
+    
         fig, ax = plt.subplots(figsize=figsize)
-        sns.heatmap(numeric.corr(), annot=True, cmap="Greys", ax=ax, cbar=True,
-                    linewidths=0.5, linecolor='white', annot_kws={"color": "white"})
-        ax.set_facecolor("black")
-        fig.patch.set_facecolor("black")
+        sns.heatmap(numeric.corr(), annot=True, cmap="coolwarm", ax=ax,
+                    linewidths=0.5, linecolor='gray', cbar=True,
+                    annot_kws={"color": "white"})
+        ax.set_facecolor("#0e1117")  # tło dopasowane do Streamlit
+        fig.patch.set_facecolor("#0e1117")
         plt.xticks(rotation=45, color="white")
         plt.yticks(rotation=0, color="white")
         plt.tight_layout()
-
+    
         buf = io.BytesIO()
         fig.savefig(buf, format="png", facecolor=fig.get_facecolor())
         buf.seek(0)
         return buf
+
     
     def get_correlation_insights(self, threshold=0.75):
         corr = self.df.select_dtypes(include=np.number).corr()
