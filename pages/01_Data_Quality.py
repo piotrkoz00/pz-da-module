@@ -46,6 +46,17 @@ st.markdown("---")
 analyzer = DataQualityAnalyzer(df, expected_types)
 report = analyzer.generate_report()
 
+# Po wygenerowaniu raportu: report = analyzer.generate_report()
+st.session_state["kpi_data_quality"] = {
+    "Braki [%]": report['missing_values']['percent_missing_total'],
+    "Duplikaty [%]": report['duplicates']['percent_duplicates'],
+    "Outliery [%]": report['outliers']['percent_outliers_total'],
+    "Zgodność typów": (
+        sum(1 for v in report['type_conformance'].values() if v['conforms']) /
+        max(1, len(report['type_conformance']))
+    ) * 100 if report['type_conformance'] else None
+}
+
 st.subheader("KPI - Podstawowe wskaźniki jakości")
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Procent braków", f"{report['missing_values']['percent_missing_total']:.2f}%")

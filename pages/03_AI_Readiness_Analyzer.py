@@ -7,7 +7,7 @@ st.set_page_config(page_title="Zaawansowana analiza danych do AI", layout="wide"
 st.title("Zaawansowana analiza danych do AI")
 
 if "df" not in st.session_state:
-    st.warning("⚠️ Nie znaleziono danych! Wróć do strony głównej i wczytaj dane.")
+    st.warning("Nie znaleziono danych! Wróć do strony głównej i wczytaj dane.")
     st.stop()
 
 df = st.session_state["df"]
@@ -19,11 +19,23 @@ st.dataframe(df.head())
 
 # 📊 Reprezentatywność danych
 st.subheader("📊 Reprezentatywność danych")
-st.dataframe(analyzer.check_representativeness())
+rep = analyzer.check_representativeness()
+if isinstance(rep, pd.DataFrame) and "skośność" in rep.columns:
+    skewness_avg = abs(rep["skośność"]).mean()
+    rep_kpi = f"Średnia skośność: {skewness_avg:.2f}"
+else:
+    rep_kpi = "Brak danych liczbowych"
+st.dataframe(rep)
 
 # 🧾 Jakość metadanych
 st.subheader("🧾 Jakość metadanych")
-st.dataframe(analyzer.check_metadata_quality())
+meta = analyzer.check_metadata_quality()
+if not meta.empty:
+    percent_no_nulls = 100.0 * (meta["nulls"] == 0).sum() / len(meta)
+    meta_kpi = f"{percent_no_nulls:.0f}% kolumn bez braków"
+else:
+    meta_kpi = "Brak danych"
+st.dataframe(meta)
 
 # 🧩 Korelacje
 st.subheader("🧩 Korelacje zmiennych liczbowych")
@@ -82,6 +94,8 @@ st.subheader("🎯 Wybór kolumny celu (do klasyfikacji)")
 st.markdown("Wybierz kolumnę, która będzie etykietą klas w modelu klasyfikacyjnym.")
 
 target_column = st.selectbox("Kolumna celu", [None] + list(df.columns))
+balance_kpi = "Brak lub nie dotyczy"
+model_kpi = "Brak"
 
 if target_column:
     analyzer = AIReadinessAnalyzer(df, target_column)
@@ -93,6 +107,9 @@ if target_column:
         class_balance = analyzer.check_class_balance()
         if class_balance is not None:
             st.bar_chart(class_balance)
+            max_class = class_balance.max()
+            min_class = class_balance.min()
+            balance_kpi = f"max: {max_class:.2%}, min: {min_class:.2%}"
         else:
             st.info("Kolumna celu ma zbyt dużo unikalnych wartości.")
 
@@ -100,6 +117,11 @@ if target_column:
         st.subheader("🤖 Trenowanie prostego modelu")
         with st.spinner("⏳ Trwa trenowanie modelu..."):
             result = analyzer.train_simple_model()
+            if isinstance(result, dict) and "accuracy" in result:
+                accuracy = result["accuracy"]
+                model_kpi = f"{accuracy:.2%}"
+            else:
+                model_kpi = "Brak"
 
         if isinstance(result, dict):
             st.metric("Dokładność", f"{result['accuracy']:.2%}")
@@ -134,3 +156,10 @@ if target_column:
             st.info("Brak dodatkowych zmiennych liczbowych.")
     else:
         st.warning(f"⚠️ Kolumna `{target_column}` wygląda na zmienną ciągłą. Wybierz zmienną kategoryczną.")
+
+st.session_state["kpi_ai_readiness"] = {
+    "Zbilansowanie klas": balance_kpi,
+    "Jakość metadanych": meta_kpi,
+    "Reprezentatywność": rep_kpi,
+    "Wydajność modelu": model_kpi
+}
